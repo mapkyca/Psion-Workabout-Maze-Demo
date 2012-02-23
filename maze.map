@@ -1,0 +1,116 @@
+
+ Start  Stop   Length Name               Class              Group
+
+ 00000H 0064CH 0064CH _TEXT              CODE               (none)
+ 00650H 01650H 01000H STACK              STACK              (none)
+ 01650H 02650H 01000H _MAGIC             MAGIC              DGROUP 
+ 02650H 02652H 00002H _INIT              DATA               DGROUP 
+ 02652H 026C2H 00070H _CONST             DATA               DGROUP 
+ 026D0H 02710H 00040H _DATA              DATA               DGROUP 
+ 02710H 0277CH 0006CH _BSS               BSS                DGROUP 
+ 02770H 02772H 00002H BSS_END            BSS                DGROUP 
+
+  Address         Publics by Value
+
+ 0000:0000       __init0
+ 0000:000E       _p_leave
+ 0000:0016       __begin
+ 0000:0037       _p_abort
+ 0000:003E       __fp_0
+ 0000:003F       __fp_1
+ 0000:0040       __sigFp
+ 0000:0043       __math_excep
+ 0000:004C       __InitSetup
+ 0000:0069       __InitLoop
+ 0000:00C3       _p_exit
+ 0000:00D1       _InitConsole
+ 0000:0133       _RequestKeyb
+ 0000:0150       _Write
+ 0000:0195       _LoadMaze
+ 0000:0271       _DrawMaze
+ 0000:02FB       _main
+ 0000:040A       _p_atob
+ 0000:040F       _p_close
+ 0000:0417       _p_ioa5
+ 0000:0417       _p_ioa4
+ 0000:0417       _p_ioa3
+ 0000:041F       _p_iow2
+ 0000:041F       _p_iow3
+ 0000:041F       _p_iow4
+ 0000:0427       _p_iowait
+ 0000:042C       _p_open
+ 0000:043A       _p_read
+ 0000:0442       _p_seek
+ 0000:044C       _p_write
+ 0000:0454       _p_getch
+ 0000:047B       _p_printf
+ 0000:04BC       __FatalErrorPos
+ 0000:04C5       __FatalError
+ 0000:04C9       _p_xwind
+ 0000:063C       _ExtCatTable
+ 0000:063C       _ClassTable
+ 0000:063E       N$StdRet
+ 0000:0648       __FloatInit
+ 0000:064B       __FloatJmpRestore
+ 0000:064B       __FloatFinish
+ 0000:064B       __FloatJmpSave
+ 0000:064B       __FloatMathExcepDos
+ 0000:064B       __FloatInitInstance
+ 0165:0000       _DatWordDead
+ 0165:0002       _DatHandNext
+ 0165:0004       _DatHandPrev
+ 0165:0006       _DatCountrySeg
+ 0165:0008       _DatClassHandle
+ 0165:000A       _DatClassPtr
+ 0165:000C       _DatEClassHandle
+ 0165:000E       _DatEClassPtr
+ 0165:0010       _DatEnterFramePtr
+ 0165:0012       _w_ws
+ 0165:0014       _w_am
+ 0165:0016       _wClientData
+ 0165:0018       _wserv_channel
+ 0165:001A       _T
+ 0165:001C       _r
+ 0165:001E       _DatOsFramePtr
+ 0165:0020       _DatATFlag
+ 0165:0021       _DatHeapLocked
+ 0165:0022       _DatProcessNamePtr
+ 0165:0024       _DatCommandPtr
+ 0165:0026       _DatTest
+ 0165:0028       _DatApp1
+ 0165:002A       _DatApp2
+ 0165:002C       _DatApp3
+ 0165:002E       _DatApp4
+ 0165:0030       _DatApp5
+ 0165:0032       _DatApp6
+ 0165:0034       _DatApp7
+ 0165:0036       _DatDialogPtr
+ 0165:0038       _DatGate
+ 0165:003A       _DatLocked
+ 0165:003C       _DatStatusNamePtr
+ 0165:003E       _DatUsedPathNamePtr
+ 0165:1000       __init_begin
+ 0165:1002       __const_start
+ 0165:1002       __init_start
+ 0165:1080       CoreSig@CnsHandler
+ 0165:1080       __data_start
+ 0165:1082       @InitPointer
+ 0165:1084       @InitPriority
+ 0165:1090       _winHandle
+ 0165:1092       __conName
+ 0165:10A0       __DefScreenRect
+ 0165:10B0       __DefScreenMode
+ 0165:10C0       __bss_start
+ 0165:10C0       __SH_sword
+ 0165:10C2       @InitCount
+ 0165:10C4       @InitEnd
+ 0165:10C6       @InitDone
+ 0165:10C8       @ExitCode
+ 0165:10CA       @StackContextSP
+ 0165:10CC       @StackContextBP
+ 0165:10D4       _g_Maze
+ 0165:111A       _g_PlayerX
+ 0165:111C       _g_PlayerY
+ 0165:1120       __bss_end
+
+Program entry point at 0000:0000

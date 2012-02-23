@@ -1,0 +1,6 @@
+#system epoc img
+#set epocinit=iplib
+#model small jpi
+
+#compile maze
+#link maze
